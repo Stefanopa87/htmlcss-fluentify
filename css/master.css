@@ -23,8 +23,10 @@
     position: absolute;
     width: 50%;
     height: 70%;
+    object-fit: cover;
     right: 0;
     bottom: 0;
+    z-index: 1;
   }
 
   nav{
@@ -68,14 +70,22 @@
   }
 
   .blocco-titolo{
-    padding-left: 88px;
+    padding-left: 100px;
     padding-top: 120px;
     margin-bottom: 20px;
+    position: relative;
+    z-index: 2;
   }
 
   .titolo{
     color: #fff;
     font-size: xxx-large;
+    margin-bottom: 20px;
+  }
+
+  p{
+    padding-top: 5px;
+    color: grey;
   }
 
 
@@ -87,6 +97,8 @@
   .top{
     height: 120px;
     background-color: #D3D3D3;
+    text-align: center;
+    padding-top: 30px;
 
   }
 
