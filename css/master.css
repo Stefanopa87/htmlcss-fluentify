@@ -103,12 +103,14 @@
   }
 
   .col{
-    height: 350px;
+    min-height: 350px;
     width: 30%;
+    margin-top: 20px;
     display: inline-block;
     float: left;
+    position: relative;
     /* debug */
-    background-color: pink;
+    /* background-color: pink; */
   }
 
   .left{
@@ -116,7 +118,31 @@
   }
 
   .center{
-    margin: 0 1%;
+    margin: 20px 1%;
+  }
+
+  .col img{
+    object-fit: cover;
+    height: 130px;
+    position: absolute;
+    top: 65px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .col h3{
+    text-align: center;
+    color: #7CBB02;
+    font-size: xx-large;
+    position: absolute;
+    padding-top: 130px;
+  }
+
+  .col p{
+    padding-top: 220px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
   }
 
   .row1::after{
