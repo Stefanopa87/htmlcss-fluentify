@@ -157,15 +157,27 @@
     margin-top: 3px;
     display: inline-block;
     float: left;
-    /* debug */
+    position: relative;
+        /* debug */
     background-color: orange;
-
-
   }
+
+  /* .blocco img{
+    position: absolute;
+    object-fit: cover;
+  } */
 
   .lx{
     margin-left: 4%;
     margin-right: 2%;
+    /* background-image: url("../img/mountain.svg"); */
+  }
+
+  .lx img{
+    display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 66%;
   }
 
   .row2::after{
