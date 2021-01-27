@@ -6,6 +6,10 @@
 
   /* header */
 
+  body{
+    font-family: 'Roboto', sans-serif;
+  }
+
   header{
     height: 400px;
     background-color: #0C325A;
