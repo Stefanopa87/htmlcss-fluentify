@@ -9,8 +9,73 @@
   header{
     height: 400px;
     background-color: #0C325A;
+    position: relative;
+    /* background-image: url("../img/background-header.png"); */
+    background-position: center;
     /* debug */
   }
+
+  #men{
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    right: 0;
+    bottom: 0;
+  }
+
+  nav{
+    text-align: center;
+  }
+
+  ul li{
+    margin-top: 15px;
+    margin-left: 2px;
+    display: inline-block;
+  }
+
+  a{
+    text-decoration: none;
+    color: #fff;
+    padding-right: 2px;
+  }
+
+  .space{
+    margin-left: 80px;
+  }
+
+  .but{
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 10px 12px;
+    cursor: pointer;
+  }
+
+  .login{
+    background-color: inherit;
+    color: #fff;
+
+  }
+
+  .piano{
+    background-color: #7CBB02;
+    color: white;
+    border: none;
+    /* IDEA: border none lo devo lasciare qui perche annulla il prcedente css su tutti e 2 i tasti del bordo */
+  }
+
+  .blocco-titolo{
+    padding-left: 88px;
+    padding-top: 120px;
+    margin-bottom: 20px;
+  }
+
+  .titolo{
+    color: #fff;
+    font-size: xxx-large;
+  }
+
+
+
 
 
   /* main */
